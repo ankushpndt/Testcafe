@@ -16,7 +16,7 @@ const mattressLinkChild = Selector('span').withExactText('Mattresses')
 const mattressFirstProduct = Selector('a').withAttribute('title', 'Crown Posture Bedding , Mattresses, Plush')
 
 const changeBackdrop = ClientFunction(() => {
-    const backdrop= document.querySelector('.backdrop');
+    const backdrop = document.querySelector('.backdrop');
     backdrop?.classList.remove('backdrop')
 });
 

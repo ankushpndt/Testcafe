@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "testcafe": "^2.2.0"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0"
   }
 }

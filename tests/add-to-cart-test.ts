@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe'; // first import testcafe selectors
 import { ClientFunction } from 'testcafe';
 
-fixture `ProductDetails`// declare the fixture
+fixture `AddToCart`// declare the fixture
     .page `https://dev.fw-dts.vercel.app/`;
 
 const scroll = ClientFunction(( behavior?: ScrollBehavior, top?:number, bottom?:number) => {
@@ -26,7 +26,7 @@ const changeBackdrop = ClientFunction(() => {
 });
 
 //then create a test and place your code there
-test('ProductDetails test', async t => {
+test('AddToCart test', async t => {
     await t.maximizeWindow()
     await t.click(mattressLink)
     await t.click(mattressLinkChild)
@@ -39,7 +39,7 @@ test('ProductDetails test', async t => {
     await scroll('smooth', 5997)
     await t.wait(10000)
     await t.takeScreenshot({
-        path: 'productDetails.png',
+        path: 'addToCart.png',
         fullPage: true,
     })
 });

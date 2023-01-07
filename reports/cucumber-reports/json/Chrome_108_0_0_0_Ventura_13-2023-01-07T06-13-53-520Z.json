@@ -1,0 +1,270 @@
+[
+  {
+    "description": "ProductDetails",
+    "elements": [
+      {
+        "id": "ScenarioProductDetails test",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "ProductDetails test",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/ankush/Desktop/Fw testcafe/tests/add-to-cart-test.ts:1:0"
+            },
+            "name": "ProductDetails test",
+            "result": {
+              "duration": 30457,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">ProductDetails test</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "ProductDetails",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "app": {
+        "name": "testcafe-reports",
+        "version": 1
+      },
+      "browser": {
+        "name": "chrome",
+        "version": "108.0.0.0"
+      },
+      "device": "Ventura",
+      "platform": {
+        "name": "unknown",
+        "version": "unknown"
+      },
+      "reportTime": "2023-01-07T06:13:53.521Z",
+      "startTime": "2023-01-07T06:12:01.770Z"
+    },
+    "name": "ProductDetails",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@productdetails"
+      }
+    ],
+    "uri": "/Users/ankush/Desktop/Fw testcafe/tests/add-to-cart-test.ts:1"
+  },
+  {
+    "description": "HomePage",
+    "elements": [
+      {
+        "id": "Scenariohomepage test",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "homepage test",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/ankush/Desktop/Fw testcafe/tests/homepage-test.ts:1:0"
+            },
+            "name": "homepage test",
+            "result": {
+              "duration": 26794,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">homepage test</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "HomePage",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "app": {
+        "name": "testcafe-reports",
+        "version": 1
+      },
+      "browser": {
+        "name": "chrome",
+        "version": "108.0.0.0"
+      },
+      "device": "Ventura",
+      "platform": {
+        "name": "unknown",
+        "version": "unknown"
+      },
+      "reportTime": "2023-01-07T06:13:53.521Z",
+      "startTime": "2023-01-07T06:12:01.770Z"
+    },
+    "name": "HomePage",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@homepage"
+      }
+    ],
+    "uri": "/Users/ankush/Desktop/Fw testcafe/tests/homepage-test.ts:1"
+  },
+  {
+    "description": "ProductDetails",
+    "elements": [
+      {
+        "id": "ScenarioProductDetails test",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "ProductDetails test",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/ankush/Desktop/Fw testcafe/tests/product-details-test.ts:1:0"
+            },
+            "name": "ProductDetails test",
+            "result": {
+              "duration": 25554,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">ProductDetails test</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "ProductDetails",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "app": {
+        "name": "testcafe-reports",
+        "version": 1
+      },
+      "browser": {
+        "name": "chrome",
+        "version": "108.0.0.0"
+      },
+      "device": "Ventura",
+      "platform": {
+        "name": "unknown",
+        "version": "unknown"
+      },
+      "reportTime": "2023-01-07T06:13:53.521Z",
+      "startTime": "2023-01-07T06:12:01.770Z"
+    },
+    "name": "ProductDetails",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@productdetails"
+      }
+    ],
+    "uri": "/Users/ankush/Desktop/Fw testcafe/tests/product-details-test.ts:1"
+  },
+  {
+    "description": "ProductListing",
+    "elements": [
+      {
+        "id": "ScenarioProductListing test",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "ProductListing test",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "/Users/ankush/Desktop/Fw testcafe/tests/product-listing-test.ts:1:0"
+            },
+            "name": "ProductListing test",
+            "result": {
+              "duration": 26416,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">ProductListing test</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "ProductListing",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "app": {
+        "name": "testcafe-reports",
+        "version": 1
+      },
+      "browser": {
+        "name": "chrome",
+        "version": "108.0.0.0"
+      },
+      "device": "Ventura",
+      "platform": {
+        "name": "unknown",
+        "version": "unknown"
+      },
+      "reportTime": "2023-01-07T06:13:53.521Z",
+      "startTime": "2023-01-07T06:12:01.770Z"
+    },
+    "name": "ProductListing",
+    "runInfo": {
+      "endTime": "2023-01-07T06:13:53.520Z",
+      "passed": 4,
+      "startTime": "2023-01-07T06:12:01.770Z",
+      "testCount": 4,
+      "userAgents": [
+        "Chrome 108.0.0.0 / Ventura 13"
+      ],
+      "warnings": [
+        "The file at \"/Users/ankush/Desktop/Fw testcafe/screenshots/productDetails.png\" already exists. It has just been rewritten with a recent screenshot. This situation can possibly cause issues. To avoid them, make sure that each screenshot has a unique path. If a test runs in multiple browsers, consider including the user agent in the screenshot path or generate a unique identifier in another way."
+      ]
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@productlisting"
+      }
+    ],
+    "uri": "/Users/ankush/Desktop/Fw testcafe/tests/product-listing-test.ts:1"
+  }
+]

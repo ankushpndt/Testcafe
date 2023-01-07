@@ -1,8 +1,16 @@
 {
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "testcafe-reporter-cucumber-json": "^6.3.0"
+  },
   "devDependencies": {
+    "multiple-cucumber-html-reporter": "^3.0.2",
     "testcafe": "^2.2.0"
   },
-  "dependencies": {
-    "@ffmpeg-installer/ffmpeg": "^1.1.0"
+  "scripts": {
+    "tests-chrome-without-report": "testcafe chrome tests",
+    "tests-chrome-with-report": "testcafe chrome tests --reporter cucumber-json --reporter-json-folder=reports/cucumber-reports/json --reporter-app-name='testcafe-reports' --reporter-app-version='1.0'",
+    "regression-tests-with-report": "testcafe chrome tests --fixture-meta regression=true --reporter cucumber-json:reports/report.json --reporter-app-name='testcafe-reports' --reporter-app-version='1.0'",
+    "createReport": "node report-generator.ts"
   }
 }

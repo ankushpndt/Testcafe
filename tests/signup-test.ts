@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe'; // first import testcafe selectors
 import { ClientFunction } from 'testcafe';
 
-fixture `SignIn`// declare the fixture
+fixture `SignUp`// declare the fixture
     .page `https://dev.fw-dts.vercel.app/`;
 
 const scroll = ClientFunction(( behavior?: ScrollBehavior, top?:number, bottom?:number) => {
@@ -26,13 +26,13 @@ const logoutLogo = Selector('.nav_wrapper > div > div > div > a > div').withText
 const logoutBtn = Selector('button > div > span').withText('Sign out')
 
 //then create a test and place your code there
-test('SignIn test', async t => {
+test('SignUp test', async t => {
     await t.maximizeWindow()
     await t.click(userIcon)
     .click(signUpLink)
     .typeText(firstNameInput, 'Test')
     .typeText(lastNameInput, 'User')
-    .typeText(emailInput, 'test2@gmail.com')
+    .typeText(emailInput, 'test3@gmail.com')
     .typeText(mobileNumberInput, '0933726111')
     .typeText(passwordInput, 'Testuser@123')
     .typeText(passwordConfirmationInput, 'Testuser@123')
@@ -40,7 +40,7 @@ test('SignIn test', async t => {
     .click(createAnAccountButton)
     await t.wait(5000)
     await t.takeScreenshot({
-        path: 'signin.png',
+        path: 'signup.png',
         fullPage: true,
     })
     // await t.click(logoutLogo).wait(5000)
